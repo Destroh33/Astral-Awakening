@@ -14,24 +14,25 @@ public class SoulMovement : MonoBehaviour
 
     void Update()
     {
+        vel = new Vector2(0.0f, 0.0f);
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            vel = new Vector2(-1.0f, 0.0f) * Time.fixedDeltaTime * speed;
+            vel += new Vector2(-1.0f, 0.0f) * Time.fixedDeltaTime * speed;
             rb.MovePosition(rb.position + vel);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            vel = new Vector2(1.0f, 0.0f) * Time.fixedDeltaTime * speed;
+            vel += new Vector2(1.0f, 0.0f) * Time.fixedDeltaTime * speed;
             rb.MovePosition(rb.position + vel);
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            vel = new Vector2(0.0f, 1.0f) * Time.fixedDeltaTime * speed;
+            vel += new Vector2(0.0f, 1.0f) * Time.fixedDeltaTime * speed;
             rb.MovePosition(rb.position + vel);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            vel = new Vector2(0.0f, -1.0f) * Time.fixedDeltaTime * speed;
+            vel += new Vector2(0.0f, -1.0f) * Time.fixedDeltaTime * speed;
             rb.MovePosition(rb.position + vel);
         }
     }
