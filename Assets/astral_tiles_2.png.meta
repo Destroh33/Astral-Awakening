@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      astral_tiles_2_0: 997887695890267043
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
