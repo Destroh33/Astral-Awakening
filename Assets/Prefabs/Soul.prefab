@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4800269873441530455}
   - component: {fileID: 7300000646884895389}
   - component: {fileID: 7233487383348030450}
+  - component: {fileID: 1459061851359613917}
   m_Layer: 6
   m_Name: Soul
   m_TagString: Soull
@@ -177,6 +178,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1459061851359613917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3460314684497872739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8794d8ac21b81f149ab9aba73e882306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followSpeed: 2.5
+  holdPoint: {fileID: 6001235108212608236}
 --- !u!1 &4654496515533192103
 GameObject:
   m_ObjectHideFlags: 0

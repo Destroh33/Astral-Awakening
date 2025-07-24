@@ -64,9 +64,9 @@ public class EnemyAI : MonoBehaviour
     {
         return sr.color.a;
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.CompareTag("Soull"))
+        if (other.gameObject.CompareTag("Soull"))
         {
             Destroy(other.gameObject);
         }

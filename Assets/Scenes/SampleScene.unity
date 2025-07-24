@@ -4568,21 +4568,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: purple box 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6876602283383497608, guid: c27f82238e076a64892cf078a7827627, type: 3}
-      propertyPath: m_UseAutoMass
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6876602283383497608, guid: c27f82238e076a64892cf078a7827627, type: 3}
-      propertyPath: m_LinearDamping
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7624202478057751452, guid: c27f82238e076a64892cf078a7827627, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.38
+      value: -3.18
       objectReference: {fileID: 0}
     - target: {fileID: 7624202478057751452, guid: c27f82238e076a64892cf078a7827627, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.64
+      value: -0.92
       objectReference: {fileID: 0}
     - target: {fileID: 7624202478057751452, guid: c27f82238e076a64892cf078a7827627, type: 3}
       propertyPath: m_LocalPosition.z
