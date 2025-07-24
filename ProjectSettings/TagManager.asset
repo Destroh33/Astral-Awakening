@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - PhysicalBox
+  - Soull
   layers:
   - Default
   - TransparentFX
