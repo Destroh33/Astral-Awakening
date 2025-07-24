@@ -60,9 +60,13 @@ public class EnemyAI : MonoBehaviour
         sr.color = endColor;
         isActive = true;
     }
+    public float GetAlpha()
+    {
+        return sr.color.a;
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Soull"))
         {
             Destroy(other.gameObject);
         }
