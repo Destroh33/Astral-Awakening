@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4033426675093812069}
   - component: {fileID: 8802502876245041146}
   - component: {fileID: 798146245310319060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 2.5
+  speed: 3
   fadeDuration: 0.75
 --- !u!61 &8802502876245041146
 BoxCollider2D:
