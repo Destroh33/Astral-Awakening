@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class Interaction : MonoBehaviour
 {
@@ -11,7 +11,7 @@ public class Interaction : MonoBehaviour
     bool isInteracting;
 
     [SerializeField] GameObject dialogueUIBox;
-    [SerializeField] Image speakerImg;
+    [SerializeField]  Image speakerImg;
     [SerializeField] TextMeshProUGUI dialogueText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

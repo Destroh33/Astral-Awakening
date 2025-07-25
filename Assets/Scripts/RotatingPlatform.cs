@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class RotatingPlatform : MonoBehaviour
@@ -12,5 +13,14 @@ public class RotatingPlatform : MonoBehaviour
     void Update()
     {
         
+    }
+
+    IEnumerator RotatePlatform()
+    {
+        while (true)
+        {
+            transform.Rotate(Vector3.forward, 90 * Time.deltaTime);
+            yield return null;
+        }
     }
 }
